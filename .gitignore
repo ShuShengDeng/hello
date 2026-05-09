@@ -1,0 +1,42 @@
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Fresh build directory
+_fresh/
+
+# Deno cache and lock file
+.deno/
+deno.lock
+
+# Dependencies (manual mode)
+node_modules/
+vendor/
+
+# Database files
+*.db
+*.db-journal
+data.db
+
+# Drizzle migrations
+drizzle/
+drizzle.config.ts
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build output
+dist/
+build/
+
