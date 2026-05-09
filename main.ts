@@ -5,3 +5,5 @@ export const app = new App();
 app.use(staticFiles());
 
 app.fsRoutes();
+
+console.log("🚀 Server started");
